@@ -3,7 +3,7 @@ package com.example.paul7.myapplication.Main
 /**
  * Created by paul.liu on 2017/11/23.
  */
-class MainPresenter : MainContract.Presenter {
+class MainPresenter @Inject constructor(): MainContract.Presenter {
 
     var mView : MainContract.View? = null
 

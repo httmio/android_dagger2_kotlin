@@ -10,7 +10,7 @@ import com.example.paul7.myapplication.R
 
 class MainActivity : BaseActivity(), MainContract.View {
 
-
+	@Injection
     var mPresenter: MainPresenter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
